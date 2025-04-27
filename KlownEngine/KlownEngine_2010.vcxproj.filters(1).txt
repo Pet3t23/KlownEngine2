@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{934f43cb-d39d-46c6-8827-9d1b5098b2a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{54e0214b-d503-45d3-a409-3336761b5c9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{748e4ab6-26b0-43b5-ad7c-b1276a589ac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui\include">
+      <UniqueIdentifier>{ef245632-d35e-449b-886d-7dcd8f06061f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui\source">
+      <UniqueIdentifier>{937f19e8-8a9d-4278-9626-e4f3064b22a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Prerrequisites.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui-docking\backends\imgui_impl_dx11.h">
+      <Filter>ImGui\source</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui-docking\backends\imgui_impl_win32.h">
+      <Filter>ImGui\source</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui-docking\imstb_rectpack.h">
+      <Filter>ImGui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui-docking\imstb_textedit.h">
+      <Filter>ImGui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui-docking\imstb_truetype.h">
+      <Filter>ImGui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui-docking\imconfig.h">
+      <Filter>ImGui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui-docking\imgui.h">
+      <Filter>ImGui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui-docking\imgui_internal.h">
+      <Filter>ImGui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UserInterface.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BaseApp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SamplerState.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Buffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ShaderProgram.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InputLayout.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Viewport.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Prerequisites.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Swapchain.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MeshComponent.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RenderTargetView.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Window.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Texture.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DeviceContext.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Device.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DepthStencilView.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KlownEngine.cpp" />
+    <ClCompile Include="imgui\imgui-docking\backends\imgui_impl_win32.cpp">
+      <Filter>ImGui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui-docking\backends\imgui_impl_dx11.cpp">
+      <Filter>ImGui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui-docking\imgui_demo.cpp">
+      <Filter>ImGui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui-docking\imgui_draw.cpp">
+      <Filter>ImGui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui-docking\imgui_tables.cpp">
+      <Filter>ImGui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui-docking\imgui_widgets.cpp">
+      <Filter>ImGui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui-docking\imgui.cpp">
+      <Filter>ImGui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Swapchain.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Texture.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\UserInterface.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Viewport.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Window.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BaseApp.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Buffer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DepthStencilView.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Device.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DeviceContext.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\InputLayout.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RenderTargetView.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SamplerState.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ShaderProgram.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="KlownEngine.fx">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="KlownEngine.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

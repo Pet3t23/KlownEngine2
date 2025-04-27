@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="KlownEngine.cpp" />
+    <ClCompile Include="source\BaseApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Buffer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DepthStencilView.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Device.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DeviceContext.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui-docking\imgui.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\InputLayout.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RenderTargetView.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SamplerState.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ShaderProgram.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Swapchain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Texture.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\UserInterface.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Viewport.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Window.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui-docking\imgui_demo.cpp">
+      <Filter>include\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui-docking\imgui_draw.cpp">
+      <Filter>include\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui-docking\backends\imgui_impl_dx11.cpp">
+      <Filter>include\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui-docking\backends\imgui_impl_win32.cpp">
+      <Filter>include\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui-docking\imgui_tables.cpp">
+      <Filter>include\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui-docking\imgui_widgets.cpp">
+      <Filter>include\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModelLoader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\BaseApp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Buffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DepthStencilView.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Device.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DeviceContext.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InputLayout.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MeshComponent.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Prerequisites.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RenderTargetView.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <CLInclude Include="resource.h">
+      <Filter>include</Filter>
+    </CLInclude>
+    <ClInclude Include="include\SamplerState.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ShaderProgram.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Swapchain.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Texture.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Viewport.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UserInterface.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Window.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui-docking\imconfig.h">
+      <Filter>include\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui-docking\imgui.h">
+      <Filter>include\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui-docking\backends\imgui_impl_dx11.h">
+      <Filter>include\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui-docking\backends\imgui_impl_win32.h">
+      <Filter>include\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui-docking\imgui_internal.h">
+      <Filter>include\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ModelLoader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OBJ_Loader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HipnoticEngine\HipnoticEngine-main\HipnoticEngine\include\utilities\EngineMath.h">
+      <Filter>include\utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HipnoticEngine\HipnoticEngine-main\HipnoticEngine\include\utilities\Structures\TArray.h">
+      <Filter>include\utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HipnoticEngine\HipnoticEngine-main\HipnoticEngine\include\utilities\Structures\TMap.h">
+      <Filter>include\utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HipnoticEngine\HipnoticEngine-main\HipnoticEngine\include\utilities\Structures\TPair.h">
+      <Filter>include\utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HipnoticEngine\HipnoticEngine-main\HipnoticEngine\include\utilities\Structures\TSet.h">
+      <Filter>include\utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HipnoticEngine\HipnoticEngine-main\HipnoticEngine\include\utilities\Matrix\Matrix2x2.h">
+      <Filter>include\utilites\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HipnoticEngine\HipnoticEngine-main\HipnoticEngine\include\utilities\Matrix\Matrix3x3.h">
+      <Filter>include\utilites\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HipnoticEngine\HipnoticEngine-main\HipnoticEngine\include\utilities\Matrix\Matrix4x4.h">
+      <Filter>include\utilites\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HipnoticEngine\HipnoticEngine-main\HipnoticEngine\include\utilities\Vectors\Quaternion.h">
+      <Filter>include\utilites\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HipnoticEngine\HipnoticEngine-main\HipnoticEngine\include\utilities\Memory\TSharedPointer.h">
+      <Filter>include\utilites\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HipnoticEngine\HipnoticEngine-main\HipnoticEngine\include\utilities\Memory\TStaticPtr.h">
+      <Filter>include\utilites\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HipnoticEngine\HipnoticEngine-main\HipnoticEngine\include\utilities\Memory\TUniquePtr.h">
+      <Filter>include\utilites\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HipnoticEngine\HipnoticEngine-main\HipnoticEngine\include\utilities\Memory\TWeakPointer.h">
+      <Filter>include\utilites\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HipnoticEngine\HipnoticEngine-main\HipnoticEngine\include\utilities\Vectors\Vector2.h">
+      <Filter>include\utilites\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HipnoticEngine\HipnoticEngine-main\HipnoticEngine\include\utilities\Vectors\Vector3.h">
+      <Filter>include\utilites\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HipnoticEngine\HipnoticEngine-main\HipnoticEngine\include\utilities\Vectors\Vector4.h">
+      <Filter>include\utilites\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ECS\Actor.h">
+      <Filter>include\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ECS\Component.h">
+      <Filter>include\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ECS\Entity.h">
+      <Filter>include\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ECS\Transform.h">
+      <Filter>include\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui-docking\imstb_truetype.h">
+      <Filter>include\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui-docking\imstb_rectpack.h">
+      <Filter>include\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui-docking\imstb_textedit.h">
+      <Filter>include\Imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="KlownEngine.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="KlownEngine.fx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{15955a91-cc86-4f6b-9f07-2c8c2f964aee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{f256f7d1-3cb9-42d5-a49e-06a50156e44f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Imgui">
+      <UniqueIdentifier>{01e04eec-8b53-4a71-aa25-cb4324cd6023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\utilites">
+      <UniqueIdentifier>{c78aff27-fd96-4c3e-a478-fe2cef0ee8a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\utilites\Vectors">
+      <UniqueIdentifier>{98cbdfed-0bf7-4e77-ba9a-3ab0dc5dd78d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\utilites\Memory">
+      <UniqueIdentifier>{77e7043a-4fd6-48d2-b171-38d1c93bae66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\utilites\Matrix">
+      <UniqueIdentifier>{32efbaf1-ea2c-448b-9a7e-9b42fc980620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ECS">
+      <UniqueIdentifier>{364b04e8-7b6d-4b7a-8042-71675741a86b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
