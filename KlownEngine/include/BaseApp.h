@@ -14,7 +14,7 @@
 #include "UserInterface.h"
 #include "ModelLoader.h"
 #include "ECS/Actor.h"
-
+#include "Profiler.h"
 class
   BaseApp {
 public:
